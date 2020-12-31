@@ -4,3 +4,6 @@ int main() {
    cout << "Hello World";  
    return 0;  
 }  
+
+
+Compile using Alt+F9 and Run using Ctrl+F9
