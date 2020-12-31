@@ -1,0 +1,36 @@
+<iostream> : Standard input, output and error functions
+<iomanip> : Services for formatting IO operations
+<fstream> : Services for user-controlled file processing
+
+Standard output(cout):
+    Displays output of the console
+    
+#include <iostream>  
+using namespace std;  
+int main( ) {  
+   char ary[] = "Welcome to C++ tutorial";  
+   cout << "Value of ary is: " << ary << endl;  
+}  
+
+Standard input(cin)
+    Reads input to the console
+    
+#include <iostream>  
+using namespace std;  
+int main( ) {  
+  int age;  
+   cout << "Enter your age: ";  
+   cin >> age;  
+   cout << "Your age is: " << age << endl;  
+}  
+
+Standard Endline(endl)
+    Used to insert a new line characters and flushes the stream
+
+#include <iostream>  
+using namespace std;  
+int main( ) {  
+cout << "C++ Tutorial";     
+cout << " Javatpoint"<<endl;   
+cout << "End of line"<<endl;   
+}   
